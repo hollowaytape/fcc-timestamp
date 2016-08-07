@@ -1,6 +1,6 @@
 var http = require('http');
 var url = require('url');
-var port = Number(process.argv[2]);
+var port = process.env.PORT || 8080;
 
 var MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August',
               'September', 'October', 'November', 'December'];
