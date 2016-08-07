@@ -34,7 +34,7 @@ var httpServer = http.createServer(function (request, response) {
             data = '{"unix": null, "natural": null}';
         }
         console.log(data);
-        response.end(JSON.stringify(date));
+        response.end(JSON.stringify(data));
     }
 })
 
